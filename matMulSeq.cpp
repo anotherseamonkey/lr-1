@@ -52,9 +52,7 @@ int main()
     clock_t start;
 
     int arr[10] = {10, 50, 100, 250, 500, 700, 1000, 1500, 2000, 2500};
-    //int arr[1] = { 30};
     int l = 0;
-     // Convert string {argv[1]} to integer
 
     for (l; l < 10; l++) {
         const int N = arr[l];
@@ -66,7 +64,6 @@ int main()
         // Allocating memory for 2 initial matrices
         A = new float[N * N];
         B = new float[N * N];
-        //const string A, B, C;
 
 
         // initializing matrix A and B with random numbers
